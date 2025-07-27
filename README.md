@@ -1,20 +1,15 @@
-# ft_transcendence_js
+# ft_transcendence
  
+Modules completed:
+(major modules in all caps)
+
 - BACKEND
-- FRONTEND
-- DATABASE
 - MULTIPLAYER
 - ANOTHER GAME
 - AI
+- database
+- frontend
 - game customization
 - expand browser compatibility
 - multiple language support
 - accessibility features
-- 
-
-
-tournoi : route /matchs/$matchId/status : 404
- dans front/tournament.ts  |  back/tournamentRoutes.js
-
-docker fait par qulusche
-et c'est le seul et dernier truc
