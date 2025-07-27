@@ -1,0 +1,6 @@
+/backend/.env
+/frontend/dist/ts/*.js
+/frontend/dist/lang/*.js
+/backend/node_modules/
+/frontend/node_modules/
+/backend/pong.db/

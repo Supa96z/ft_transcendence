@@ -1,0 +1,88 @@
+{
+  "match": "Clásico",
+  "tournament": "Torneo",
+  "pfc": "Roca-Hoja-Tijeras",
+  "play": "Jugar",
+  "history": "Histórico",
+  "history-2": "historia de 2 jugadores",
+  "history-4": "historia de cuatro jugadores",
+  "back": "Volver",
+
+  "how_many_players": "¿Cuántos jugadores?",
+  "players_count": "{{count}} jugadores",
+  "players_names": "Nombres de jugadores",
+
+  "player": "Jugador",
+  "player_alias_ph": "Alias del jugador",
+  "enter_pl_alias": "Ingrese los alias de los jugadores",
+  "begin": "Comenzar",
+
+  "2_players_matches": "Partidos de 2 jugadores",
+  "4_players_matches": "Partidos de 4 jugadores",
+  "no_matches": "No hay partidos guardados.",
+  "hist_error": "Error durante la recuperación del historial.",
+
+  "as_won": "como ganado!",
+  "menu": "Menú",
+  "as_lost": "como perdido.",
+
+  "?next_match": "¿Listo para el próximo partido?",
+  "next_match_btn": "Próximo partido",
+
+  "tournament_win": "¡Gana el torneo!",
+
+  "equality": "¡Igualdad!",
+  "score": "Puntaje",
+  "between": "Entre el jugador 1 y jugador 2",
+  "error_match_creation": "Error durante la creación de partidas",
+  "error_score_save": "Error durante el registro de partituras",
+  "wins_round": "¡gana la ronda!",
+  "wins_equalized": "¡Gana la ronda con bonificación de igualación!",
+  "bonus_equalizer": "bono ecualizador",
+
+  "select_game_mode": "Modo de juego",
+  "normal": "Normal",
+  "bonus": "Bonus",
+
+  "rock": "Piedra",
+  "paper": "Papel",
+  "scissors": "Tijeras",
+
+  "home": "Inicio",
+  "match_type_choice": "elección del tipo de partido",
+  "player_number_choice": "Elección del recuento de jugadores",
+  "player_alias_input": "Introducción de alias de jugador",
+  "pong_game": "Juego Pong",
+  "pong_explanation": "Juego iniciado. usa W y S para el jugador 1, flechas arriba y abajo para el jugador 2.",
+  "player1": "Jugador 1",
+  "player2": "Jugador 2",
+  "player3": "Jugador 3",
+  "player4": "Jugador 4",
+  "pong-four": "Pong para cuatro jugadores",
+  "pong-four_explanation": "Juego lanzado. usa W y S para el jugador 1, flechas arriba y abajo para el jugador 2, I y O para el jugador 3, C y V para el jugador 4",
+  "pfc_explanation": "Juego lanzado. jugador 1: Q para piedra, W para papel , E para tijeras. jugador 2: J para piedra, K para papel, L para tijeras.",
+  "choose": "elegido",
+  "pageLoaded": "Página {{pageName}} cargada",
+  "chrome_recommendation": "Por favor, utilice Chrome<br>para una mejor experiencia<br>con el lector de pantalla",
+
+  "high_contrast": "alto contraste",
+  "white": "blanco",
+  "screen_reader": "lector de pantalla",
+  "enable_screen_reader": "activar el lector de pantalla",
+  "disable_screen_reader": "desactivar el lector de pantalla",
+  "screen_reader_enabled": "lector de pantalla habilitado",
+  "screen_reader_disabled": "lector de pantalla desactivado",
+
+  "normal_text": "texto normal",
+  "large_text": "texto grande",
+  "bold_text": "texto en negrita",
+
+  "history_2": "2-Jugador",
+  "history_4_btn": "4-Jugador",
+  "history_pfc": "RHT",
+  "AI": "AI",
+
+  "error_invalid_alias": "Alias no válido",
+  "error_alias_format": "Formato de alias no válido",
+  "missing_player_name": "Introduzca un alias"
+}

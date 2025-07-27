@@ -1,0 +1,188 @@
+@import "tailwindcss";
+
+body.theme-CP {
+	--canvas-line-color: oklch(87.87% 0.0426 272.28);
+	--canvas-bg-color: oklch(24.29% 0.0304 283.91);
+	--canvas-text-color: oklch(87.87% 0.0426 272.28);
+	--canvas-entity-color: #fff;
+}
+
+body.theme-HC {
+	--canvas-line-color: oklch(0.7 0.2384 145.06);
+	--canvas-bg-color: #000;
+	--canvas-text-color: oklch(0.87 0.1842 87);
+	--canvas-entity-color: yellow;
+}
+
+body.theme-OLED {
+	--canvas-line-color: #fff;
+	--canvas-bg-color: #000;
+	--canvas-text-color: #fff;
+	--canvas-entity-color: #fff;
+}
+
+body.theme-WHITE {
+	--canvas-line-color: #000;
+	--canvas-bg-color: oklch(0.967 0.003 264.542);
+	--canvas-text-color: #000;
+	--canvas-entity-color: #000;
+}
+
+@theme {
+	/* Variables de base qui seront ecrasees par le programme. */
+	--color-catpuccin: oklch(24.29% 0.0304 283.91);
+	--color-catpuccin-text: oklch(87.87% 0.0426 272.28);
+	--color-button: oklch(47.65% 0.034 278.64); /* Valeur par defaut (catpuccin). */
+	--color-button-hover: oklch(0.62 0.0426 272.28);
+	--color-hist: oklch(0.34 0.048 278.64);
+	--button-text-color: oklch(87.87% 0.0426 272.28);
+	--color-hist-text: oklch(87.87% 0.0426 272.28);
+	--disabled-button-color: oklch(47.65% 0.034 278.64);
+	--disabled-button-text-color: oklch(87.87% 0.0426 272.28);
+}
+
+.btn {
+	background-color: var(--color-button);
+	color: var(--button-text-color);
+}
+
+.btn-fixed {
+	width: 100px;
+}
+
+.btn:hover:not([disabled]) {
+	background-color: var(--color-button-hover);
+}
+
+.btn[disabled] {
+	background-color: var(--disabled-button-color);
+	color: var(--disabled-button-text-color);
+}
+
+.little_btn {
+	background-color: var(--color-button);
+	color: var(--button-text-color);
+	width: 10px;
+	height: 10px;
+}
+
+.little_btn:hover:not([disabled]) {
+	background-color: var(--color-button-hover);
+}
+
+.little_btn[disabled] {
+	background-color: var(--disabled-button-color);
+	color: var(--disabled-button-text-color);
+}
+
+#history-pong, #history-pfc {
+	overflow-y: auto;
+	max-height: 300px;
+	scrollbar-width: thin;
+	scrollbar-color: var(--color-button) transparent;
+}
+
+.history-table {
+	table-layout: fixed;
+	width: 100%;
+}
+
+.history-table th, .history-table td {
+	width: 50%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* Styles pour l'historique */
+.bg-hist {
+	background-color: var(--color-hist);
+}
+
+.bg-hist-text {
+	color: var(--color-hist-text);
+}
+
+/* Styles pour les sélections actives */
+.lang-active {
+	border: 3px solid #22c55e !important; /* Bordure verte pour la langue active */
+	box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.3);
+}
+
+.theme-active {
+	border: 3px solid #22c55e !important; /* Bordure verte pour le thème actif */
+	box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.3);
+}
+
+.theme-active > div {
+	border: 2px solid #22c55e !important; /* Bordure verte pour le div interne */
+}
+
+.text-size-active {
+	background-color: #22c55e !important; /* Fond vert pour la taille de texte active */
+	color: white !important;
+}
+
+.text-size-active > div {
+	background-color: #22c55e !important;
+	color: white !important;
+}
+
+/* Amélioration du focus pour les boutons de contrôle */
+.screen-reader-active {
+	background-color: #22c55e !important;
+	border-color: #16a34a !important;
+}
+
+/* PFC */
+
+#arena {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 40px;
+	height: 200px;
+}
+
+.player-column {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	font-size: 2em;
+}
+
+.fight-zone {
+	position: relative;
+	width: 200px;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.fight-symbol {
+	font-size: 3em;
+	width: 50px;
+	height: 50px;
+	transition: transform 0.5s ease, opacity 0.5s;
+	opacity: 0;
+}
+
+#fight-j1 { transform: translateX(-100px); }
+#fight-j2 { transform: translateX(100px); }
+
+.fight-in #fight-j1,
+.fight-in #fight-j2 {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+#resultat, #vainqueur {
+	margin-top: 30px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#scores {
+	margin-top: 20px;
+	font-size: 1.2em;
+}

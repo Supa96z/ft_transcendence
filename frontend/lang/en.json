@@ -1,0 +1,89 @@
+{
+  "match": "Classic",
+  "tournament": "Tourney",
+  "pfc": "Rock-Paper-Scissors",
+  "play": "Play",
+  "history": "History",
+  "history-2": "two player history",
+  "history-4_btn": "History 4",
+  "history-4": "four player history",
+  "back": "Back",
+
+  "how_many_players": "How many players?",
+  "players_count": "{{count}} players",
+  "players_names": "Players names",
+
+  "player": "Player",
+  "player_alias_ph": "Player alias",
+  "enter_pl_alias": "Enter players aliases",
+  "begin": "Begin",
+
+  "2_players_matches": "2 players matches",
+  "4_players_matches": "4 players matches",
+  "no_matches": "No saved matches.",
+  "hist_error": "Error during history recuperation.",
+
+  "as_won": " as won !",
+  "menu": "Menu",
+  "as_lost": "as lost.",
+
+  "?next_match": "Ready for the next match?",
+  "next_match_btn": "Next match",
+
+  "tournament_win": "win the tournament!",
+
+  "equality": "Draw !",
+  "score": "Score",
+  "between": "between {{player1}} and {{player2}}",
+  "error_match_creation": "Error during match creation",
+  "error_score_save": "Error during score registration",
+  "wins_round": "win the round !",
+  "wins_equalized": "Win the round with the equalizer bonus!",
+  "bonus_equalizer": "bonus equalizer",
+
+  "select_game_mode": "Game mode",
+  "normal": "Normal",
+  "bonus": "Bonus",
+
+  "rock": "Rock",
+  "paper": "Paper",
+  "scissors": "Scissors",
+
+  "home": "Home",
+  "match_type_choice": "Match type choice",
+  "player_number_choice": "Player count choice",
+  "player_alias_input": "Player aliases input",
+  "pong_game": "Pong game",
+  "pong_explanation": "Game launched. use W and S for player 1, up and down arrows for player 2.",
+  "player1": "Player 1",
+  "player2": "Player 2",
+  "player3": "Player 3",
+  "player4": "Player 4",
+  "pong-four": "Four players pong",
+  "pong-four_explanation": "Game launched. use W and S for player 1, up and down arrows for player 2, I and O for player 3, C and V for player 4",
+  "pfc_explanation": "Game launched. player 1: Q for stone, W for paper , E for scissors. player 2: J for stone, K for paper, L for scissors.",
+  "choose": "choosed",
+  "pageLoaded": "Page {{pageName}} loaded",
+  "chrome_recommendation": "Please use Chrome<br>for a better experience<br>with the screen reader",
+
+  "high_contrast": "high contrast",
+  "white": "white",
+  "screen_reader": "screen reader",
+  "enable_screen_reader": "enable screen reader",
+  "disable_screen_reader": "disable screen reader",
+  "screen_reader_enabled": "screen reader enabled",
+  "screen_reader_disabled": "screen reader disabled",
+
+  "normal_text": "normal text",
+  "large_text": "large text",
+  "bold_text": "bold text",
+
+  "history_2": "2-Player",
+  "history_4_btn": "4-Player",
+  "history_pfc": "RPS",
+  "AI": "AI",
+
+  "error_invalid_alias": "Invalid alias",
+  "error_alias_format": "Invalid alias format",
+  "missing_player_name": "Please enter an alias"
+}

@@ -1,0 +1,87 @@
+{
+  "match": "Classique",
+  "tournament": "Tournoi",
+  "pfc": "Pierre-Feuille-Ciseaux",
+  "play": "Jouer",
+  "history": "Historique",
+  "history-2": "Historique 2 joueurs",
+  "history-4": "Historique 4 joueurs",
+  "history_4_btn": "4-Joueurs",
+  "history_2": "2-Joueurs",
+  "history_pfc": "PFC",
+  "back": "Retour",
+
+  "how_many_players": "Combien de joueurs ?",
+  "players_count": "{{count}} joueurs",
+  "players_names": "Nom des joueurs",
+
+  "player": "Joueur",
+  "player_alias_ph": "Alias Joueur",
+  "enter_pl_alias": "Entrez les alias des joueurs",
+  "begin": "Commencer",
+
+  "2_players_matches": "Matchs à 2 joueurs",
+  "4_players_matches": "Matchs à 4 joueurs",
+  "no_matches": "Aucun matchs enregistrés.",
+  "hist_error": "Erreur lors de la récupération de l'historique.",
+
+  "as_won": " a gagné !",
+  "menu": "Menu",
+  "as_lost": "a perdu.",
+
+  "?next_match": "Prêt pour le match suivant?",
+  "next_match_btn": "Match suivant",
+
+  "tournament_win": "a gagné le tournoi!",
+
+  "equality": "Égalité !",
+  "score": "Score",
+  "between": "entre {{player1}} et {{player2}}",
+  "error_match_creation": "Erreur lors de la création du match",
+  "error_score_save": "Erreur lors de l'enregistrement du score",
+  "wins_round": "gagne la manche !",
+  "wins_equalized": "gagne la manche avec bonus égalisateur!",
+  "bonus_equalizer": "bonus égalisateur",
+
+  "select_game_mode": "Mode de jeu",
+  "normal": "Normal",
+  "bonus": "Bonus",
+
+  "rock": "Pierre",
+  "paper": "Feuille",
+  "scissors": "Ciseaux",
+
+  "home": "dakeuy",
+  "match_type_choice": "Choix du type de match",
+  "player_number_choice": "Choix du nombre de joueurs",
+  "player_alias_input": "Choix des alias des joueurs",
+  "pong_game": "Partie de pong",
+  "pong_explanation": "Partie démarrée. Utilisez les touches W et S pour le joueur 1, flèches haut et bas pour le joueur 2.",
+  "player1": "Joueur 1",
+  "player2": "Joueur 2",
+  "player3": "Joueur 3",
+  "player4": "Joueur 4",
+  "pong-four": "Partie de pong à quatre",
+  "pong-four_explanation": "Partie démarrée. Utilisez W et S pour le joueur 1, flèches haut et bas pour le joueur 2, I et O pour le joueur 3, C et V pour le joueur 4",
+  "pfc_explanation": "Partie démarrée. Joueur 1: Q pour pierre, W pour feuille, E pour ciseaux. Joueur 2: J pour pierre, K pour feuille, L pour ciseaux.",
+  "choose": "a choisi",
+  "pageLoaded": "Page {{pageName}} chargée",
+  "chrome_recommendation": "Veuillez utiliser Chrome<br>pour une meilleure expérience<br>avec le lecteur d'écran",
+
+  "high_contrast": "contrast élevé",
+  "white": "blanc",
+  "screen_reader": "lecteur d'écran",
+  "enable_screen_reader": "Activer le lecteur d'écran",
+  "disable_screen_reader": "Désactiver le lecteur d'écran",
+  "screen_reader_enabled": "lecteur d'écran activé",
+  "screen_reader_disabled": "lecteur d'écran désactivé",
+
+  "normal_text": "texte normal",
+  "large_text": "grand texte",
+  "bold_text": "texte gras",
+  "AI": "I.A",
+
+  "error_invalid_alias": "Alias invalide",
+  "error_alias_format": "Erreur format alias",
+  "missing_player_name": "Veuillez entrer des alias"
+}
